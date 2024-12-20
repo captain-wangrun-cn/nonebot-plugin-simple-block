@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot_plugin_simple_block"
+version = "1.0.0"
+description = "屏蔽某个群聊或只相应某个群聊，方便开发者进行插件测试"
+authors = ["WR <wangrun114514@foxmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/captain-wangrun-cn/nonebot-plugin-simple-block"
+repository = "https://github.com/captain-wangrun-cn/nonebot-plugin-simple-block"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebot2 = "^2.2.0"
+nonebot-adapter-onebot = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
