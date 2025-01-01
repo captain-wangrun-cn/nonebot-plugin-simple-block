@@ -27,6 +27,7 @@ async def preprocessor(event: GroupMessageEvent):
         if gid in group_blacklist:
             raise IgnoredException("群聊屏蔽")
     else:
-        # 使用白名单
-        if gid not in group_whitelist:
-            raise IgnoredException("群聊屏蔽")
+        if group_whitelist:
+            # 使用白名单
+            if gid not in group_whitelist:
+                raise IgnoredException("群聊屏蔽")

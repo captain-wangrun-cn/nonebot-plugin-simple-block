@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_simple_block"
-version = "1.0.0"
+version = "1.0.1"
 description = "屏蔽某个群聊或只相应某个群聊，方便开发者进行插件测试"
 authors = ["WR <wangrun114514@foxmail.com>"]
 license = "GPL-3.0"
